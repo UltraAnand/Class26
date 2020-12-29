@@ -21,6 +21,7 @@ function setup(){
 
     box1 = new Box(700,320,70,70);
     box2 = new Box(920,320,70,70);
+    box7 = new box(100,200,50,50)
     pig1 = new Pig(810, 350);
     log1 = new Log(810,260,300, PI/2);
 
@@ -35,6 +36,7 @@ function setup(){
     log5 = new Log(870,120,150, -PI/7);
 
     bird = new Bird(100,100);
+    
 
 }
 
@@ -58,6 +60,7 @@ function draw(){
     box5.display();
     log4.display();
     log5.display();
+    box7.display();
 
     bird.display();
     platform.display();
